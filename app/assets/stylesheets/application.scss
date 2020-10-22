@@ -68,6 +68,7 @@ header.main {
       border-top: solid thin #bfb;
       padding: 0.354em 0;
       margin-top: 0.354em;
+
       input[type="submit"] {
         // Make the logout button look like a
         // link, so it matches the nav style
@@ -80,10 +81,12 @@ header.main {
         padding: 0;
         text-transform: uppercase;
       }
+
       input[type="submit"]:hover {
         color: white;
       }
     }
+
     ul {
       list-style: none;
       margin: 0;
@@ -145,24 +148,29 @@ header.main {
     }
   }
 }
+
 //
 .depot_form {
   padding: 0 1em;
+
   h1 {
     font-size: 1.99em;
     line-height: 1.41em;
     margin-bottom: 0.5em;
     padding: 0;
   }
+
   .field,
   .actions {
     margin-bottom: 0.5em;
     padding: 0;
   }
+
   .actions {
     text-align: right;
     padding: 1em 0;
   }
+
   input,
   textarea,
   select,
@@ -175,9 +183,11 @@ header.main {
     //
     width: 100%;
   }
+
   label {
     padding: 0.5em 0;
   }
+
   input[type="submit"] {
     background-color: #bfb;
     border-radius: 0.354em;
@@ -187,9 +197,11 @@ header.main {
     font-weight: bold;
     padding: 0.354em 1em;
   }
+
   input[type="submit"]:hover {
     background-color: #9d9;
   }
+
   // Also, clean up the error styling
   #error_explanation {
     background-color: white;
@@ -198,6 +210,7 @@ header.main {
     margin-bottom: 0.5em;
     padding: 0.5em;
     width: 100%;
+
     h2 {
       background: none;
       color: red;
@@ -205,29 +218,40 @@ header.main {
       line-height: 1.41em;
       padding: 1em;
     }
+
     ul {
       margin-top: 0;
+
       li {
         color: red;
         font-size: 1em;
       }
     }
   }
+
   .field_with_errors {
     background: none;
     color: red;
     width: 100%;
+
     label {
       font-weight: bold;
     }
+
     label::before {
       content: "! ";
     }
+
     input,
     textarea {
       background: pink;
     }
   }
 }
+
 //
 //
+.locale {
+  float: right;
+  margin: 1em;
+}
